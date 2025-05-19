@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.633);
+}
+header {
+  background-color: black;
+  display: flex;
+}
+ul {
+  display: flex;
+  width: 500px;
+  padding-right: 20px;
+}
+
+ul,
+header {
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#activei {
+  text-decoration: underline;
+  text-decoration-color: greenyellow;
+}
+#page {
+  font-size: 20px;
+  margin: 30px;
+}
